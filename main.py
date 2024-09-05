@@ -5,8 +5,8 @@ import random
 from pandas import *
 
 # 1. Update the birthdays.csv
-my_mail = "sampleudemy2@gmail.com"
-password = "ayrrtrqigzcrfzvu"
+my_mail = "mail"
+password = "password"
 # 2. Check if today matches a birthday in the birthdays.csv
 now = dt.datetime.now()
 data = read_csv("birthdays.csv")
